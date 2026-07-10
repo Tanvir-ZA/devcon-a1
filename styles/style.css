@@ -45,3 +45,47 @@
     font-size: 16px;
     color: #575757;
 }
+
+/* header css */
+.header-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../assets/banner.jpg");
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+    
+    
+}                      
+
+.header-container{
+    text-align: center;
+    color:white;
+    max-width: 870px;
+    
+
+}
+.header-container h2{
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 16px;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+.header-container p{
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+.header-container button{
+    font-size: 24px;
+    padding: 25px 62px;
+}
