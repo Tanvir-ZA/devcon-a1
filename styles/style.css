@@ -29,6 +29,11 @@
   border-radius: 10px;
 }
 
+ .card:hover, .cards:hover, .button-1:hover, .button-2:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
 /* nav css */
 
 .nav-bar {
@@ -167,7 +172,10 @@ span {
   text-align: left;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
 }
+
 
 .card-items {
   padding: 30px;
