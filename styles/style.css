@@ -29,9 +29,12 @@
   border-radius: 10px;
 }
 
- .card:hover, .cards:hover, .button-1:hover, .button-2:hover{
-    transform: translateY(-5px);
-    transition: 0.3s;
+.card:hover,
+.cards:hover,
+.button-1:hover,
+.button-2:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
 }
 
 /* nav css */
@@ -148,13 +151,13 @@ span {
   text-align: center;
 }
 
-.pricing-section > h2 {
+.pricing-section>h2 {
   font-weight: bold;
   font-size: 48px;
   margin-bottom: 12px;
 }
 
-.pricing-section > p {
+.pricing-section>p {
   font-size: 16px;
   color: #575757;
 }
@@ -229,4 +232,181 @@ span {
 
 .cards-middle p {
   color: #ffffff;
+}
+
+
+/* missing section created with Ai */
+/* ===== Event Highlights Section ===== */
+
+.highlights {
+
+
+  margin-top: 100px;
+
+  background:
+    radial-gradient(circle at top left,
+      rgba(99, 102, 241, .10),
+      transparent 35%),
+
+    radial-gradient(circle at bottom right,
+      rgba(59, 130, 246, .10),
+      transparent 35%),
+
+    linear-gradient(135deg,
+      #ffffff 0%,
+      #faf9ff 45%,
+      #f5f9ff 75%,
+      #ffffff 100%);
+
+  border-radius: 24px;
+
+  border: 1px solid rgba(99, 102, 241, .05);
+}
+
+.highlight-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 60px;
+  padding: 60px;
+}
+
+/* Left Side */
+
+.left-content {
+  flex: 1;
+}
+
+.section-tag {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4F46E5;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.left-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.left-content h2 span {
+  color: #4F46E5;
+}
+
+.description {
+  font-size: 16px;
+  color: #6B7280;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #4F46E5;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+.btn:hover {
+  background: #4338CA;
+}
+
+/* Right Side */
+
+.right-content {
+  flex: 2;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  
+}
+
+/* Feature Card */
+
+.feature {
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 16px;
+  transition: .3s;
+}
+
+.feature:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #EEF2FF;
+  border-radius: 18px;
+
+  font-size: 25px;
+}
+
+.feature h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2a56b4;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 15px;
+  color: #6B7280;
+  line-height: 1.6;
+}
+
+/* footer css */
+
+.footer {
+  background-color: #0D1B2A;
+  margin-top: 30px;
+  border-radius: top 15px;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+.footer-container p {
+  color: white;
+  opacity: 50%;
+  margin-top: 10px;
+}
+
+.icons img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+
+
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: center;
 }

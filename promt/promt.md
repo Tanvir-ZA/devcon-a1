@@ -1,0 +1,1 @@
+suppose you are a professional ui/ux designer. now you have to design a website. in this picture there is a missing part after pricing section & before the footer section now please design the section for me and genarate a picture of the missing section for visual representation. it would be better if you can give 3/4 options.
