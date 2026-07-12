@@ -328,17 +328,23 @@ span {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 25px;
-  
+
 }
 
 /* Feature Card */
-
 .feature {
   text-align: center;
   padding: 20px 10px;
   border-radius: 16px;
   transition: .3s;
 }
+
+
+.iconss{
+  height: 50px;
+  width: 50px;
+}
+
 
 .feature:hover {
   transform: translateY(-8px);
@@ -378,7 +384,7 @@ span {
 .footer {
   background-color: #0D1B2A;
   margin-top: 30px;
-  border-radius: top 15px;
+
 
 }
 
